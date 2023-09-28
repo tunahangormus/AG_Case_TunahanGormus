@@ -56,7 +56,7 @@ export default class CardStackView {
         const newY = cardYIndex === 0 ? 600 : 200;
         const newX = cardXIndex * 2;
         card.rotation = 0;
-        gsap.delayedCall(0.25, () => {
+        gsap.delayedCall(0.5, () => {
             card.zIndex = -cardXIndex;
         });
 
@@ -72,9 +72,9 @@ export default class CardStackView {
     }
 
     public resize(width: number, height: number): void {
-        this.container.scale.set(Math.min((width * 0.8) / this.containerBounds.width, (height * 0.8) / 800));
+        this.container.scale.set(Math.min((width * 0.7) / this.containerBounds.width, (height * 0.7) / 800));
         this.container.pivot.x = this.containerBounds.width / 2;
-        this.container.pivot.y = this.containerBounds.height;
+        this.container.pivot.y = this.containerBounds.height * 1.15;
         this.container.x = width / 2;
         this.container.y = height / 2;
     }
