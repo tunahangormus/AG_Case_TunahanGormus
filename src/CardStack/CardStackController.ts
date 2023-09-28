@@ -18,6 +18,7 @@ export default class CardStackController {
         this.view = view;
         this.model.initiateCards();
         this.view.renderCards(this.model.getCards());
+        this.view.addStackText();
     }
 
     init(): void {

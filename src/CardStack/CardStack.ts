@@ -13,7 +13,7 @@ export default class CardStack implements IScene {
     constructor(stage: PIXI.Container) {
         this.stage = stage;
         this.model = new CardStackModel();
-        this.view = new CardStackView(this.stage);
+        this.view = new CardStackView(this.stage, this.model);
         this.controller = new CardStackController(this.model, this.view);
     }
 
