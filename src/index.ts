@@ -4,6 +4,7 @@ import * as PIXI from "pixi.js";
 import PixiPlugin from "gsap/PixiPlugin";
 import gsap from "gsap";
 import SceneManager from "./SceneManager";
+import Stats from "stats.js";
 
 const gameWidth = 800;
 const gameHeight = 800;
@@ -21,13 +22,18 @@ gsap.registerPlugin(PixiPlugin);
 window.onload = async (): Promise<void> => {
     await loadGameAssets();
     document.body.appendChild(app.view);
+    var stats = new Stats();
+    stats.showPanel(0);
+    document.body.appendChild(stats.dom);
     app.stage.sortableChildren = true;
 
     const ticker = PIXI.Ticker.shared;
 
     const sceneManager = new SceneManager(app.stage);
     ticker.add((delta) => {
+        stats.begin();
         sceneManager.update(delta);
+        stats.end();
     });
     ticker.start();
 
