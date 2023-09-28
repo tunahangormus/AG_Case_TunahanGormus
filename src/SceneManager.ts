@@ -4,6 +4,7 @@ import CardStack from "./CardStack/CardStack";
 import { gsap } from "gsap";
 import RandomText from "./RandomText/RandomText";
 import FireParticle from "./FireParticle/FireParticle";
+import ChangeSceneButton from "./UI/ChangeSceneButton";
 
 export default class SceneManager {
     private scenes: IScene[] = [];
@@ -12,21 +13,16 @@ export default class SceneManager {
     private stage: PIXI.Container;
     private lastWidth: number = 0;
     private lastHeight: number = 0;
+    private changeSceneButton: ChangeSceneButton;
 
     constructor(stage: PIXI.Container) {
         this.scenes = [new CardStack(stage), new RandomText(stage), new FireParticle(stage)];
         this.stage = stage;
         this.currentScene = null;
         this.loadNextScene();
-
-        document.addEventListener("keydown", this.onKeyDown.bind(this));
+        this.changeSceneButton = new ChangeSceneButton(this.stage);
+        this.changeSceneButton.buttonClick(this.loadNextScene.bind(this));
     }
-
-    private onKeyDown = (e: KeyboardEvent) => {
-        if (e.key === "ArrowRight") {
-            this.loadNextScene();
-        }
-    };
 
     loadNextScene(): void {
         if (this.currentScene != null) {
@@ -56,5 +52,7 @@ export default class SceneManager {
         if (this.currentScene != null) {
             this.currentScene.resize(width, height);
         }
+
+        this.changeSceneButton.resize(width, height);
     }
 }
