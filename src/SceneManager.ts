@@ -16,7 +16,15 @@ export default class SceneManager {
         this.stage = stage;
         this.currentScene = null;
         this.loadNextScene();
+
+        document.addEventListener("keydown", this.onKeyDown.bind(this));
     }
+
+    private onKeyDown = (e: KeyboardEvent) => {
+        if (e.key === "ArrowRight") {
+            this.loadNextScene();
+        }
+    };
 
     loadNextScene(): void {
         if (this.currentScene != null) {
@@ -28,7 +36,7 @@ export default class SceneManager {
         }
         this.currentScene = this.scenes[this.currentSceneID];
 
-        gsap.delayedCall(1, () => {
+        gsap.delayedCall(0.5, () => {
             this.currentScene?.init();
             this.resize(this.lastWidth, this.lastHeight);
         });
