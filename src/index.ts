@@ -3,6 +3,7 @@ import "./style.css";
 import * as PIXI from "pixi.js";
 import PixiPlugin from "gsap/PixiPlugin";
 import gsap from "gsap";
+import SceneManager from "./SceneManager";
 
 const gameWidth = 800;
 const gameHeight = 800;
@@ -23,7 +24,9 @@ window.onload = async (): Promise<void> => {
     app.stage.sortableChildren = true;
 
     const ticker = PIXI.Ticker.shared;
-    
+
+    const sceneManager = new SceneManager(app.stage);
+    ticker.add(sceneManager.update.bind(sceneManager));
     ticker.start();
 
     const resize = () => {
