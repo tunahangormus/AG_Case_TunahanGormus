@@ -23,7 +23,7 @@ export default class RandomTextView {
         this.lastX = 0;
         config.forEach((element) => {
             if (element.type === "text") {
-                const text = new PIXI.Text(element.text || "", { fontSize: element.fontSize });
+                const text = new PIXI.Text(element.text || "", { fontSize: element.fontSize, fill: 0xffffff });
                 text.anchor.set(0.5);
                 text.x = this.lastX + text.width / 2;
                 this.lastX = text.x + text.width / 2;
