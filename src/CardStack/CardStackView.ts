@@ -74,7 +74,7 @@ export default class CardStackView {
     public resize(width: number, height: number): void {
         this.container.scale.set(Math.min((width * 0.7) / this.containerBounds.width, (height * 0.7) / 800));
         this.container.pivot.x = this.containerBounds.width / 2;
-        this.container.pivot.y = this.containerBounds.height * 1.15;
+        this.container.pivot.y = this.containerBounds.height * 0.85;
         this.container.x = width / 2;
         this.container.y = height / 2;
     }
