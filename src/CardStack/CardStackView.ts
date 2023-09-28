@@ -12,15 +12,20 @@ export default class CardStackView {
     }
 
     public renderCards(cards: PIXI.Sprite[]): void {
-        for (let i = 0; i < cards.length; i++) {
-            const card = cards[i];
-            card.zIndex = i;
-            card.rotation = 0;
-            card.position.set(i * 2, 200);
-            this.container.addChild(cards[i]);
-        }
-        this.container.calculateBounds();
+        cards.forEach((card) => {
+            this.container.addChild(card);
+        });
         this.container.sortableChildren = true;
+    }
+
+    public init(cards: PIXI.Sprite[]): void {
+        cards.forEach((card, index) => {
+            card.zIndex = index;
+            card.rotation = 0;
+            card.position.set(index * 2, 200);
+            card.anchor.set(0.5);
+        });
+        this.container.calculateBounds();
         this.containerBounds = this.container.getBounds();
         this.stage.addChild(this.container);
     }
@@ -41,7 +46,6 @@ export default class CardStackView {
     }
 
     public destroy(): void {
-        this.container.removeChildren();
         this.stage.removeChild(this.container);
     }
 }

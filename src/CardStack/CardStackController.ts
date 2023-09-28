@@ -8,15 +8,16 @@ export default class CardStackController {
     private model: CardStackModel;
     private view: CardStackView;
     private active: boolean = false;
-    private currentCard: number = 0;
     private currentStack: PIXI.Sprite[] = [];
     private otherStack: PIXI.Sprite[] = [];
     private currentStackId: number = 0;
+    private delayedCall: gsap.core.Tween | null = null;
 
     constructor(model: CardStackModel, view: CardStackView) {
         this.model = model;
         this.view = view;
         this.model.initiateCards();
+        this.view.renderCards(this.model.getCards());
     }
 
     init(): void {
@@ -27,8 +28,8 @@ export default class CardStackController {
         this.currentStack = stack1;
         this.otherStack = stack2;
         this.model.addAllCardsToStack(this.currentStack, this.model.getCards());
+        this.view.init(this.model.getCards());
         this.currentStackId = 0;
-        this.view.renderCards(this.model.getCards());
         this.active = true;
         this.animateCards();
     }
@@ -40,7 +41,7 @@ export default class CardStackController {
         this.view.animateCard(card, this.currentStack.length, this.currentStackId);
         this.model.removeCardFromStack(this.currentStack, card);
         this.model.addCardToStack(this.otherStack, card);
-        gsap.delayedCall(1, this.animateCards.bind(this));
+        this.delayedCall = gsap.delayedCall(1, this.animateCards.bind(this));
     }
 
     updateCurrentStack(): void {
@@ -61,6 +62,7 @@ export default class CardStackController {
 
     destroy(): void {
         this.active = false;
+        this.delayedCall?.kill();
         this.model.destroy();
         this.view.destroy();
     }
