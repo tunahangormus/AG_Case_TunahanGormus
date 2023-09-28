@@ -26,13 +26,16 @@ window.onload = async (): Promise<void> => {
     const ticker = PIXI.Ticker.shared;
 
     const sceneManager = new SceneManager(app.stage);
-    ticker.add(sceneManager.update.bind(sceneManager));
+    ticker.add((delta) => {
+        sceneManager.update(delta);
+    });
     ticker.start();
 
     const resize = () => {
         const iw = document.body.clientWidth;
         const ih = document.body.clientHeight;
 
+        sceneManager.resize(iw, ih);
         app.renderer.resize(iw, ih);
     };
 
@@ -45,6 +48,7 @@ window.onload = async (): Promise<void> => {
 async function loadGameAssets(): Promise<void> {
     return new Promise((res, rej) => {
         const loader = Loader.shared;
+        loader.add("cardAtlas", "./assets/cardAtlas.json");
 
         loader.onComplete.once(() => {
             res();

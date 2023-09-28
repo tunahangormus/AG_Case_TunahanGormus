@@ -1,0 +1,1167 @@
+{
+  "frames": {
+    "card30": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card0": {
+      "frame": {
+        "x": 143,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card10": {
+      "frame": {
+        "x": 1,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card11": {
+      "frame": {
+        "x": 193,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card12": {
+      "frame": {
+        "x": 285,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card13": {
+      "frame": {
+        "x": 1,
+        "y": 335,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card14": {
+      "frame": {
+        "x": 193,
+        "y": 335,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card15": {
+      "frame": {
+        "x": 427,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card16": {
+      "frame": {
+        "x": 385,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card17": {
+      "frame": {
+        "x": 1,
+        "y": 477,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card18": {
+      "frame": {
+        "x": 193,
+        "y": 477,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card19": {
+      "frame": {
+        "x": 385,
+        "y": 385,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card2": {
+      "frame": {
+        "x": 569,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card20": {
+      "frame": {
+        "x": 527,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card21": {
+      "frame": {
+        "x": 527,
+        "y": 385,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card22": {
+      "frame": {
+        "x": 1,
+        "y": 619,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card23": {
+      "frame": {
+        "x": 193,
+        "y": 619,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card24": {
+      "frame": {
+        "x": 385,
+        "y": 577,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card25": {
+      "frame": {
+        "x": 711,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card26": {
+      "frame": {
+        "x": 669,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card27": {
+      "frame": {
+        "x": 577,
+        "y": 577,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card28": {
+      "frame": {
+        "x": 669,
+        "y": 385,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card29": {
+      "frame": {
+        "x": 1,
+        "y": 761,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card3": {
+      "frame": {
+        "x": 193,
+        "y": 761,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card1": {
+      "frame": {
+        "x": 385,
+        "y": 719,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card31": {
+      "frame": {
+        "x": 577,
+        "y": 719,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card32": {
+      "frame": {
+        "x": 853,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card33": {
+      "frame": {
+        "x": 769,
+        "y": 577,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card34": {
+      "frame": {
+        "x": 769,
+        "y": 719,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card35": {
+      "frame": {
+        "x": 811,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card36": {
+      "frame": {
+        "x": 811,
+        "y": 385,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card37": {
+      "frame": {
+        "x": 1,
+        "y": 903,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card38": {
+      "frame": {
+        "x": 193,
+        "y": 903,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card39": {
+      "frame": {
+        "x": 385,
+        "y": 861,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card4": {
+      "frame": {
+        "x": 577,
+        "y": 861,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card40": {
+      "frame": {
+        "x": 769,
+        "y": 861,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card41": {
+      "frame": {
+        "x": 995,
+        "y": 1,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card42": {
+      "frame": {
+        "x": 961,
+        "y": 193,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card43": {
+      "frame": {
+        "x": 953,
+        "y": 385,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card44": {
+      "frame": {
+        "x": 961,
+        "y": 577,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card45": {
+      "frame": {
+        "x": 961,
+        "y": 769,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card46": {
+      "frame": {
+        "x": 1,
+        "y": 1045,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card47": {
+      "frame": {
+        "x": 193,
+        "y": 1045,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card5": {
+      "frame": {
+        "x": 961,
+        "y": 961,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card6": {
+      "frame": {
+        "x": 385,
+        "y": 1003,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card7": {
+      "frame": {
+        "x": 577,
+        "y": 1003,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card8": {
+      "frame": {
+        "x": 769,
+        "y": 1003,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "card9": {
+      "frame": {
+        "x": 1095,
+        "y": 385,
+        "w": 140,
+        "h": 190
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 190
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 190
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "cardAtlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1236,
+      "h": 1186
+    },
+    "scale": 1
+  }
+}
