@@ -3,6 +3,7 @@ import { IScene } from "./Interface/IScene";
 import CardStack from "./CardStack/CardStack";
 import { gsap } from "gsap";
 import RandomText from "./RandomText/RandomText";
+import FireParticle from "./FireParticle/FireParticle";
 
 export default class SceneManager {
     private scenes: IScene[] = [];
@@ -13,7 +14,7 @@ export default class SceneManager {
     private lastHeight: number = 0;
 
     constructor(stage: PIXI.Container) {
-        this.scenes = [new CardStack(stage), new RandomText(stage)];
+        this.scenes = [new CardStack(stage), new RandomText(stage), new FireParticle(stage)];
         this.stage = stage;
         this.currentScene = null;
         this.loadNextScene();
@@ -45,7 +46,7 @@ export default class SceneManager {
 
     update(delta: number): void {
         if (this.currentScene != null) {
-            this.currentScene.update();
+            this.currentScene.update(delta);
         }
     }
 
