@@ -2,17 +2,18 @@ import * as PIXI from "pixi.js";
 import { IScene } from "./Interface/IScene";
 import CardStack from "./CardStack/CardStack";
 import { gsap } from "gsap";
+import RandomText from "./RandomText/RandomText";
 
 export default class SceneManager {
     private scenes: IScene[] = [];
     private currentScene: IScene | null;
-    private currentSceneID: number = 0;
+    private currentSceneID: number = -1;
     private stage: PIXI.Container;
     private lastWidth: number = 0;
     private lastHeight: number = 0;
 
     constructor(stage: PIXI.Container) {
-        this.scenes = [new CardStack(stage)];
+        this.scenes = [new CardStack(stage), new RandomText(stage)];
         this.stage = stage;
         this.currentScene = null;
         this.loadNextScene();

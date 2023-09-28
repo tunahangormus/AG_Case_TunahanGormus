@@ -55,6 +55,7 @@ async function loadGameAssets(): Promise<void> {
     return new Promise((res, rej) => {
         const loader = Loader.shared;
         loader.add("cardAtlas", "./assets/cardAtlas.json");
+        loader.add("genericAtlas", "./assets/genericAtlas.json");
 
         loader.onComplete.once(() => {
             res();
